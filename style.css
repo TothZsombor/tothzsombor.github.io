@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+    margin-right: 72px;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 25px;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #f9f9f9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.fooldal {
+    background-image: url(background.svg);
+    background-repeat: no-repeat;  
+}
+
+#cim {
+    text-align: center;
+    font-size: 30pt;
+}
+
+.szoveg {
+    text-align: justify;
+    font-size: 20pt;
+}
+
+.kep1 {
+    width: 600px;
+    position: absolute;
+    margin-left: 150px;
+    border-radius: 80px;
+    border: 2px solid black .0;
+
+}
+
+
+
+.szoveg {
+    font-weight: bold;
+}
