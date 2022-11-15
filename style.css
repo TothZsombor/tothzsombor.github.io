@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background.svg);
+    background-repeat: no-repeat;  
 
 }
 
@@ -63,11 +65,6 @@ body {
     display: block;
 }
 
-.fooldal {
-    background-image: url(background.svg);
-    background-repeat: no-repeat;  
-}
-
 #cim {
     text-align: center;
     font-size: 30pt;
@@ -76,6 +73,7 @@ body {
 .szoveg {
     text-align: justify;
     font-size: 20pt;
+    font-weight: bold;
 }
 
 .kep1 {
@@ -87,8 +85,3 @@ body {
 
 }
 
-
-
-.szoveg {
-    font-weight: bold;
-}
