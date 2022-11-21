@@ -74,14 +74,19 @@ body {
     text-align: justify;
     font-size: 20pt;
     font-weight: bold;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 25px;
 }
 
-.kep1 {
+.download {
+    margin: 0 auto;
     width: 600px;
-    position: absolute;
-    margin-left: 150px;
+}
+
+#kep {
+    width: 600px;
     border-radius: 80px;
     border: 2px solid black .0;
-
 }
 
